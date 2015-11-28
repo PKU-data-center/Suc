@@ -67,7 +67,7 @@ class Spider:
 
     #保存信息
     def saveInfo(self,pageIndex):
-        #获取网易公开课首页信息
+        #获取公开课首页信息
         contents = self.getContents(pageIndex) 
         for item in contents:
             print "find",item
