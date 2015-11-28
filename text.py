@@ -7,7 +7,7 @@ import re
 import tool
 import os
 
-#抓取网易公开课类
+#抓取顶你学堂类
 class Spider:
 
     #页面初始化
