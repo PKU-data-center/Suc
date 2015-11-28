@@ -35,8 +35,7 @@ class Spider:
         items = re.findall(pattern,page)
         contents = []
         for item in items:
-            str = item[0]+item[1]+item[2]+item[3]
-            contents.append(str)
+            contents.append(item)
         return contents
 
     #获取课程具体详情页面
